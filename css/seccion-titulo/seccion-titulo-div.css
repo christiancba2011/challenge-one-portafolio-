@@ -1,0 +1,18 @@
+
+
+.title__div {
+    margin-top: 4rem;
+    color: blue;
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(https://www.tutorialesprogramacionya.com/cssya/css3ya/foto1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+  }
+
+  
+
+  

@@ -1,0 +1,29 @@
+.title__bio {
+   display: flex;
+   align-items: center;
+    font-size: 35px;
+    margin-top: 2rem;
+    padding-left: 150px;
+    
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .title__bio {
+      /* display: flex;
+      align-items: center; */
+       font-size: 30px;
+       padding-left: 1rem;
+     }
+
+  }
+
+  @media screen and (max-width: 400px) {
+    .title__bio {
+      /* display: flex;
+      align-items: center; */
+       font-size: 25px;
+       margin-top: 0;
+       /* padding-left: 1rem; */
+     }
+  }

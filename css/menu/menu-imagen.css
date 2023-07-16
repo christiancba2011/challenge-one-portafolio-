@@ -1,0 +1,15 @@
+.menu__imagen{
+      border-image-source: -moz-radial-gradient(5);
+      height: 30px; 
+      padding: 20px 10 10 0;
+      margin-left: 1rem;
+      
+     /* margin-left: 20px; */
+    /*border-radius: 100%; */
+
+}
+
+/* .menu__icono {
+    height: 20px;
+    border-radius: 50%;
+  } */

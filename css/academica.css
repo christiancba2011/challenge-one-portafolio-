@@ -1,0 +1,111 @@
+/* Experiencia Académica*/
+
+section.academic {
+    background-color: #eaf2fd;
+    margin-top: 1rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .academic__title{
+    font-size: 40px;
+    
+  }
+  
+  .academic__courses {
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+
+  .academic__courses__item__title{
+    font-size: 35px;
+  }
+
+  .academic__courses__item__subtitle{
+    font-size: 30px;
+
+  }
+
+  .academic__courses__item__img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 12px 18px 34px 1px #464646;
+    transition: all 400ms;
+  }
+  .academic__courses__item__img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 100px -7px rgb(15, 70, 172);
+  }
+
+  /* .academic_information_container_description img{
+    width: 20vw;
+    background-color: black;
+    border-radius: 5px;
+    padding: 24px;
+    margin: 24px;
+    object-fit: contain;
+} */
+
+  
+  
+  .academic__courses__item__img .imagen1{
+    width: 20vw;
+    background-color: rgb(235, 242, 238);
+    border-radius: 10px;
+    /* object-fit: contain; */
+  }
+
+  
+  /*Tablet*/
+  /* @media (min-width: 768px) { */
+  @media screen and (max-width: 768px) {
+    /*Formación Académica*/
+    .academic__courses {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 45px;
+    }
+  
+    .academic__courses__item__img .imagen1{
+      width: 450px;
+    }
+    .academic__courses__item__title{
+      font-size: 35px;
+    }
+
+    .academic__courses__item__subtitle{
+      font-size: 30px;
+
+    }
+  } 
+  
+  /*Mobile*/
+  @media screen and (max-width: 420px) {
+    /*Formación Académica*/
+
+    .academic__courses__item__img .imagen1{
+      width: 300px;
+    }
+  
+    .academic__title {
+      font-size: 35px;
+      margin-top: 15px;
+    }
+  
+    .academic__courses {
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 45px;
+    }
+  
+    .academic__courses__list {
+      padding-left: 0;
+    }
+  }

@@ -1,0 +1,89 @@
+/*Sección Skills*/
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-top: 1rem;
+    align-items: center;
+    padding: 3rem;
+    padding-left: 7vw;
+  }
+  
+  .skills__title {
+    font-size: 40px;
+    font-weight: 300;
+  }
+  
+  .skills__line {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .skills__box {
+    display: flex;
+    width: 12vw;
+    height: 13vh;
+    border-radius: 10px;
+    background-color: white;
+    align-items: end;
+    margin-right: 0.5rem;
+    padding-left: 1rem;
+    box-shadow: 1px 1px rgb(75, 102, 151);
+    transition: all 400ms;
+  }
+
+
+  
+
+
+  .skills__box:hover {
+    background-color: #eaf2fd;
+    box-shadow:  5px 5px 2px rgba(45, 45, 157, 0.663);
+
+    transform: scale(1.2);
+    box-shadow: 0px 0px 100px -7px rgb(15, 142, 173);
+  }
+  
+  .skills__box ul {
+    padding-inline-start: 0;
+  }
+  
+  /*Tablet*/
+  /* @media (min-width: 768px) { */
+  @media screen and (max-width: 768px) {
+    /*Skills*/
+  
+    .skills__title {
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+  
+    .skills__line {
+      flex-wrap: wrap;
+      width: 90vw;
+    }
+  
+    .skills__box {
+      width: 25vw;
+      height: 10vh;
+      margin-top: 1rem;
+    }
+  }
+  
+  /*Mobile*/
+  @media screen and (max-width: 425px) {
+    /*Skills*/
+  
+    .skills__title {
+      font-size: 70px;
+    }
+  
+    .skills__box {
+      width: 35vw;
+      margin-right: 0rem;
+    }
+  }
+  

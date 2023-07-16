@@ -1,0 +1,26 @@
+.title__subsection {
+    font-size: 35px;
+    margin-top: 1rem;
+    padding-left: 50px;
+  }
+
+  .title__subsection .titulo_oracle:hover{
+  color: rgb(57, 131, 131);
+  text-decoration-line: underline;
+  font-weight: 700;
+  }
+ 
+ .title__subsection .titulo_alura:hover{
+    color: rgb(99, 162, 162);
+    text-decoration-line: underline;
+    font-weight: 700;
+    } 
+  
+    @media screen and (max-width: 400px){
+      .title__subsection{
+        display: flex;
+        align-content: center;
+        font-size: 25px;
+        /* margin: 0%; */
+      }
+    }

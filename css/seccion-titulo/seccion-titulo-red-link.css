@@ -1,0 +1,31 @@
+.title__network__link{
+    font-size: 20px;
+    
+    color: #ffffff;
+  }
+
+  .title__network__link_img{
+    transition: all 500ms;
+  }
+ 
+  .title__network__link_img:hover{
+
+    background-color: rgb(12, 122, 89);
+    font-weight: 900;
+    /*font-size: 40px;*/
+    border-radius: 15px;
+    /* color: blue; */
+    transform: scale(1.1);
+  }
+
+@media screen and (max-width: 540px){
+
+  .title__network__link{
+    font-size: 11px;
+    color: #ffffff;
+    /* margin-left: 0.5px; */
+    margin: 45%;
+  }
+}
+
+ 

@@ -1,0 +1,7 @@
+  .title__network {
+    display: flex;
+    padding-inline-start: 0px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }

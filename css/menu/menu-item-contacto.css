@@ -1,0 +1,19 @@
+.menu__list__item__contato{
+    display: none;
+    color: aliceblue;
+}
+
+
+@media screen and (max-width: 768px) {
+/*      
+    .menu__list__item {
+      display: none;
+    } */
+  
+    .menu__list__item__contato{
+     display: flex;
+     font-size: medium;
+     font-family:'Raleway';
+     display: contents;
+    }
+  }

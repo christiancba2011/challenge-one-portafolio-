@@ -1,0 +1,11 @@
+.menu{
+ display: flex;
+ align-items:center ;
+ background-image: url(fotomenu.jpg);
+ 
+ /*Ajusta el ancho de acuerdo a posicion de titulo*/
+ block-size: 70px;
+ width: 100%;
+ position: fixed;
+ z-index: 100;
+}

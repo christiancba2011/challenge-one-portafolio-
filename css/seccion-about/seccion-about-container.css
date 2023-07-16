@@ -1,0 +1,63 @@
+/*Sección About*/
+
+section.about {
+  background-image:url("fondo_sobre_mi.png");
+  background-size: cover;
+  height: 40vw;
+  width: 100vw; 
+  /* margin-top: 7rem; */
+  display: flex; 
+  align-items: center;
+  /* justify-content: flex-start; */
+  /* width: 100%; */
+  /* height: auto; */
+  
+}
+
+
+.about__container {
+  width: 55vw;
+}
+
+.about__title {
+  font-size: 40px;
+}
+
+.about__paragraph {
+  width: 50vw;
+  font-size: 30px;
+}
+
+/*Tablet*/
+/* @media (min-width: 768px) { */
+@media screen and (max-width: 768px) {
+  /* about */
+  section.about {
+    height: auto;
+    width: auto;
+  }
+  .about__container {
+    width: 90vw;
+  }
+
+  .about__paragraph {
+    width: 90vw;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 425px) {
+  /*Sección sobre mi*/
+  section.about {
+    height: auto;
+    width: auto;
+  }
+
+  .about__title {
+    font-size: 30px;
+  }
+
+  .about__paragraph {
+    font-size: 25px;
+  }
+}
